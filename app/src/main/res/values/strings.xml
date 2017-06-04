@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Application Demo</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_tel">Mobile</string>
+    <string name="prompt_firstName">First Name</string>
+    <string name="prompt_lastName">Last Name</string>
+
+    <string name="facebook_app_id">466052360410137</string>
+    <string name="fb_login_protocol_scheme">fb466052360410137</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ahmedattia.profile">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/facebook_app_id"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/profilepic2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1234"
+                  android:name="com.facebook.FacebookContentProvider"
+                  android:exported="true" />
+    </application>
+
+</manifest>
